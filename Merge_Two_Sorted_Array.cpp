@@ -3,7 +3,12 @@ using namespace std;
 /*  problem statment : Given tow sorted arrays, merge them into single array.
     input arr1 = [^1][^3][^5] , arr2 = [^2][^4][^6]
     output = [^1][^2][^3][^4][^5][^6]
-    concept : array manipulation    */ 
+    concept : array manipulation   
+    difficulties :  1. how to initialise array without size with 
+                    elements.
+                    (int arr1[]={1,13,15,119};) 
+                    2. how to find size of array
+                    (int s2=sizeof(arr2)/sizeof(arr2[0]);)*/ 
 
 int main()
 {
